@@ -1,0 +1,23 @@
+---
+import TaskForm from "../components/TaskForm.jsx";
+import TaskList from "../components/TaskList.jsx";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<div>
+			<TaskForm client:visible />
+		</div>
+
+		<div>
+			<TaskList client:visible />
+		</div>
+	</body>
+</html>
