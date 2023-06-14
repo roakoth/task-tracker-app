@@ -11,7 +11,7 @@ At the end of this tutorial, you will learn how to integrate Astro and Preact in
 
 ### Steps to be followed
 
-1. [Project setup]()
+1. [Project setup](1-project-setup.md)
 2. Creating a task store
 3. Creating Preact components
 4. Rendering the Preact components in an Astro page
