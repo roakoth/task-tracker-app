@@ -131,7 +131,7 @@ The code above updates the state of a task object stored in a nanostore called t
 
 the `task.set()` method is called with a new task object. The spread operator (...$task) is used to clone the existing task object stored in the Nanostore, ensuring that a new object is created and the original object is not modified directly.
 
-The new task object is created using computed property names, where `[e.target.name]` dynamically sets the property name of the task object based on the name attribute of the target element(input field) that triggered the event. The value of the property is set to `e.target.value`, which is the value of the target element (an input field) that was changed.
+The new task object is created using computed property names, where `[e.target.name]` dynamically sets the property name of the task object based on the name attribute of the target element that triggered the event. The value of the property is set to `e.target.value`, which is the value of the target element (an input field) that was changed.
 
 This `setTask` function will be added to the input fields on the `onChange` method like this:
 

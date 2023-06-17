@@ -2,9 +2,9 @@
 
 Components are the building blocks of an application.
 
-In this application, I want to have a form where I will submit my task details by clicking the button then once the details are submitted, I want them to be rendered below the form where I can manipulate each task details by editing it, marking it as completed and removing it. This means I’ll have two components in my application. That will be `TaskForm` component and `TaskList` component.
+In this application, I want to have a form where I will submit my task details by clicking the button, once the details are submitted, I want them to be rendered below the form where I can manipulate each task by editing it, marking it as completed and removing it. So I’ll have two components in my application. That will be `TaskForm` component and `TaskList` component.
 
-I’ll create a new folder called `components` in the `sr`c folder. Then I’ll create two components files in the components folder, the first component file will be called `TaskForm.jsx` and the second component will be called `TaskList.jsx`
+I’ll create a new folder called `components` in the `src` folder. Then I’ll create two components files in the components folder, the first component file will be called `TaskForm.jsx` and the second component will be called `TaskList.jsx`
 
 Preact also uses .jsx extension for the components just like React.
 
@@ -58,10 +58,8 @@ export default TaskForm
 
 ```
 
-If you know React, this should be familiar to you.
-
-I’ll create the second component which is `TaskList` that will display each task that is created from our TaskForm component as a list.
-I’ll create the `TaskList.jsx` file in the components folder and it will contain the code below:
+I’ll create the second component which is `TaskList` that will display each task that is created from the `TaskForm` component as a list.
+The `TaskList.jsx` file will contain the code below:
 
 ```
 

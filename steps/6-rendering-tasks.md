@@ -1,6 +1,6 @@
 # Rendering the Tasks
 
-In order to display the tasks that I have created, I will need to map through the `tasks` store and then return each `task` that is created by displaying the task name and the task date. I’ll head over to the `TaskList.jsx` and then use the `useStore` hook to read the store values
+In order to display the tasks that I have created, I will need to map through the `tasks` store and then return each `task` that is created by displaying the task name and the task date. I’ll head over to the `TaskList.jsx` file and then use the `useStore` hook to read the store values
 
 ```
 

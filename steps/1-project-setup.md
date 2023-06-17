@@ -1,6 +1,6 @@
 # Step 1: Project Setup
 
-First, I will need to create a new Astro project. I will use the `create astro` CLI command in a new terminal window:
+First, I will create a new Astro project. I will use the `create astro` CLI command in a new terminal window:
 
 `# create a new project with npm
 npm create astro@latest`

@@ -19,7 +19,7 @@ To render the `TaskForm` and `TaskList` component, I’ll first import it to `in
 
 I’ll be using `client:visible` directive, which means Astro is going to load Javascript to guarantee interactivity, but only serve it when needed. Since I’ll use javascript on the two components, it’s important for me to include this directive to make the two components interactive.
 
-If I do not include the `client:visible` directive, then the form will not do anything when I click a button since there is no Javascript sent to the browser. I have not yet added Javascript to the two components, but I’ll do it in the next steps.
+ I have not yet added Javascript to the two components, but I’ll do it in the next steps.
 
 For more information on client directives, you can refer to this reference: https://docs.astro.build/en/reference/directives-reference/#client-directives
 
@@ -56,7 +56,7 @@ import TaskList from '../components/TaskList.jsx'
 
 ```
 
-I will start the development server by running this command `npm run dev` and I will see both components rendered and it will display content as shown in the image below:
+I will start the development server by running this command `npm run dev` and I will see both components rendered as shown in the image below:
 
 ![alt text](../src/images/tasklist.PNG)
 

@@ -1,7 +1,7 @@
 # Marking a task as completed and deleting tasks
 
 I want to mark a task as complete when I click the ‘complete’ button. In order for me to do that, I need to search for that specific task by its id and then add a cross line to it, which will show that is complete.
-In that case, I'll create `completeTask` function below.
+In that case, I'll create `completeTask` function below on the `TaskList.jsx` file.
 
 ```
 
@@ -44,7 +44,7 @@ The `<p>` element renders the `taskName` and `taskDate` property of the task obj
 
 ## Deleting a task
 
-To delete a task, I will need to get that specific `task` by its id through filtering through my `tasks` store. I will create a `deleteTask` function that will contain the `filter()` method which will iterate over each task object in the `tasks` array and check if the `_id` property of the `task` object is not equal to the provided `id`. If the `_id` property does not match the provided `id`, the `task` will be kept in the filtered array. If the `_id` property matches the provided `id`, then the `task` will be filtered out and not included in the resulting array.
+To delete a task, I will need to get that specific `task` by its id through filtering through my `tasks` store. I will create a `deleteTask` function on the `TaskList.jsx` file that will contain the `filter()` method which will iterate over each task object in the `tasks` array and check if the `_id` property of the `task` object is not equal to the provided `id`. If the `_id` property does not match the provided `id`, the `task` will be kept in the filtered array. If the `_id` property matches the provided `id`, then the `task` will be filtered out and not included in the resulting array.
 I will only return `tasks` that do not match the `task` with the `id` I have just selected.
 
 I will add the code below:
@@ -62,7 +62,7 @@ I will add the code below:
 
 ```
 
-On my `Delete` button, I will call the `deleteTask` function and it should look like this:
+On the `Delete` button, I will call the `deleteTask` function and it should look like this:
 
 ```
 

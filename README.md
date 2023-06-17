@@ -18,6 +18,7 @@ At the end of this tutorial, you will learn how to integrate Astro and Preact in
 5. [Creating and Updating a task](./steps/5-create-and-update-task.md)
 6. [Rendering the tasks](./steps/6-rendering-tasks.md)
 7. [Marking a task as complete and removing a task](./steps/7-completing-tasks-and-deleting-tasks.md)
+8. [Challenge: Add TailwindCSS](./steps/8-next-steps.md)
 
 
 
