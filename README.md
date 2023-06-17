@@ -7,7 +7,8 @@ The application will have the following functionalities:
 - Marking a task as completed
 - Deleting a task
 
-At the end of this tutorial, you will learn how to integrate Astro and Preact in a project, how to share state between your Preact components, and how to render Preact components in an Astro page
+At the end of this tutorial, you will learn how to integrate Astro and Preact in a project, how to share state between your Preact components using nanostores, 
+and how to render Preact components in an Astro page
 
 ## Steps to be followed
 
